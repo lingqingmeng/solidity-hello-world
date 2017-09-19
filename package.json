@@ -1,0 +1,24 @@
+{
+  "name": "liquid",
+  "version": "1.0.0",
+  "description": "Solidity Hello World",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "eth",
+    "geth",
+    "ethereum",
+    "parity",
+    "node",
+    "cli"
+  ],
+  "author": "lingqingmeng",
+  "license": "ISC",
+  "dependencies": {
+    "solc": "^0.4.16",
+    "web3": "0.20.0"
+  }
+}
