@@ -12,6 +12,7 @@ const abi = JSON.parse(output.contracts[':Token'].interface);
 
 const contract = web3.eth.contract(abi);
 
+// takes in byte code of compiled contract Token.sol
 const contractInstance = contract.new({
     data: '0x' + bytecode,
     from: web3.eth.coinbase,
