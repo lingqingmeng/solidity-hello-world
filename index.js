@@ -1,9 +1,8 @@
 const fs = require('fs');
 const solc = require('solc');
 const Web3 = require('web3');
-
 // this should be testrpc, run it with $ testrpc
-const web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
+const web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:8545'));
 
 // read source file in memory
 const input = fs.readFileSync('Token.sol');
